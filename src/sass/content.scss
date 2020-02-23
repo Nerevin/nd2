@@ -47,7 +47,7 @@
         }
     }
 
-    &__img {
+    &__img, &__img_on {
         width: 95%;
     }
 
@@ -58,11 +58,6 @@
         font-size: 16pt;
 
         visibility: hidden;
-    }
-
-    &__switch {
-        position: absolute;
-        bottom: 0;
     }
 }
 

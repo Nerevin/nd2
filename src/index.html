@@ -5,6 +5,10 @@
         <meta charset="UTF-8">
         <title>Метрологические явления</title>
         <link rel="stylesheet" href="css/index.css">
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
         <script src="js/index.js"></script>
     </head>
     <body>
@@ -23,50 +27,64 @@
                     <p class="content__text">Ветер</p>
                     <p class="content__text_on hidden">Сильный<br>ветер<br>(шквалистый)</p>
                     <img src="img/1_off.png" alt="wind" class="content__img">
+                    <img src="img/1_on.png" alt="wind" class="content__img_on hidden">
                     <p class="content__desc">Скорость порывов от 25м/с и более</p>
                     <input type="checkbox" name="" id="" class="content__switch">
+                    <div class="switch" id="switch-wind"></div>
                 </div>
                 <div class="content">
                     <p class="content__text">Дождь</p>
                     <p class="content__text_on hidden">Сильный<br>дождь<br>(Ливень)</p>
                     <img src="img/2_off.png" alt="rain" class="content__img">
+                    <img src="img/2_on.png" alt="wind" class="content__img_on hidden">
                     <p class="content__desc">Кол-во осадков 100 мм и более, в период менее чем за 12 часов.</p>
                     <input type="checkbox" name="" id="" class="content__switch">
+                    <div class="switch"></div>
                 </div>
                 <div class="content">
                     <p class="content__text">Снег</p>
                     <p class="content__text_on hidden">Сильный<br>снег</p>
                     <img src="img/3_off.png" alt="snow" class="content__img">
+                    <img src="img/3_on.png" alt="wind" class="content__img_on hidden">
                     <p class="content__desc">Кол-во осадков 20 мм и более, в период менее чем за 12 часов.</p>
                     <input type="checkbox" name="" id="" class="content__switch">
+                    <div class="switch"></div>
                 </div>
                 <div class="content">
                     <p class="content__text">Метель</p>
                     <p class="content__text_on hidden">Сильная<br>Метель</p>
                     <img src="img/4_off.png" alt="snow wind" class="content__img">
+                    <img src="img/4_on.png" alt="wind" class="content__img_on hidden">
                     <p class="content__desc">При ветре 20 м/с в течение суток с выпадением снега.</p>
                     <input type="checkbox" name="" id="" class="content__switch">
+                    <div class="switch"></div>
                 </div>
                 <div class="content">
                     <p class="content__text">Град</p>
                     <p class="content__text_on hidden">Крупный<br>град</p>
                     <img src="img/5_off.png" alt="hail" class="content__img">
+                    <img src="img/5_on.png" alt="wind" class="content__img_on hidden">
                     <p class="content__desc">Диаметр градин 20мм и более.</p>
                     <input type="checkbox" name="" id="" class="content__switch">
+                    <div class="switch"></div>
                 </div>
                 <div class="content">
                     <p class="content__text">Гололед</p>
                     <p class="content__text_on hidden">Сильный<br>гололед</p>
                     <img src="img/6_off.png" alt="ice" class="content__img">
+                    <img src="img/6_on.png" alt="wind" class="content__img_on hidden">
                     <p class="content__desc">Диаметр отложений на проводах 20 мм и более.</p>
                     <input type="checkbox" name="" id="" class="content__switch">
+                    <div class="switch"></div>
                 </div>
                 <div class="content">
                     <p class="content__text">Мороз</p>
                     <p class="content__text_on hidden">Сильный<br>мороз</p>
                     <img src="img/7_off.png" alt="cold" class="content__img">
+                    <img src="img/7_on.png" alt="wind" class="content__img_on hidden">
                     <p class="content__desc">Температура воздуха у поверхности земли 30 C и ниже для Европейской части РФ.</p>
-                    <input type="checkbox" name="" id="" class="content__switch">
+                    <input type="checkbox" name="" id="" class="content__switch" >
+                    <div class="switch"></div>
                 </div>
             </div>
         </main>
