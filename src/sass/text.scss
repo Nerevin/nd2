@@ -1,0 +1,24 @@
+.header {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24pt;
+    color: #7C002F;
+}
+
+.text {
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    &__main, &__help {
+        font-family: Arial;
+        font-size: 16pt;
+    }
+
+    &__main {
+        color: #000000;
+    }
+
+    &__help {
+        color: #DFE4E7;
+    }
+}
