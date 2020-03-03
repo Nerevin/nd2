@@ -29,6 +29,10 @@
         font-size: 16pt;
         color: white;
 
+        -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+
         background-color: #7c7c7c;
 
         &_on {
@@ -43,19 +47,29 @@
             font-size: 16pt;
             text-align: center;
             color: white;
-            background-color: #7C002F; 
+            background-color: #7C002F;
+
+            -ms-word-break: break-all;
+            word-break: break-all;
+            word-break: break-word;
         }
     }
 
     &__img, &__img_on {
-        width: 95%;
+        width: 90%;
+        height: 20%;
     }
 
     &__desc {
+        width: 90%;
         margin: 5px 0 40px 0;
 
         font-family: Arial;
         font-size: 16pt;
+
+        -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
 
         visibility: hidden;
     }
@@ -63,4 +77,10 @@
 
 .hidden {
     display: none;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .switch {
+        left: 25%;
+    }
 }
